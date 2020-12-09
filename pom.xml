@@ -16,13 +16,13 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-petclinic-admin-server</module>
-        <module>spring-petclinic-customers-service</module>
-        <module>spring-petclinic-vets-service</module>
-        <module>spring-petclinic-visits-service</module>
-        <module>spring-petclinic-config-server</module>
-        <module>spring-petclinic-discovery-server</module>
-        <module>spring-petclinic-api-gateway</module>
+        <module>my-petclinic-admin-server</module>
+        <module>my-petclinic-customers-service</module>
+        <module>my-petclinic-vets-service</module>
+        <module>my-petclinic-visits-service</module>
+        <module>my-petclinic-config-server</module>
+        <module>my-petclinic-discovery-server</module>
+        <module>my-petclinic-api-gateway</module>
     </modules>
 
     <properties>
@@ -34,7 +34,7 @@
 
         <maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
 
-        <docker.image.prefix>springcommunity</docker.image.prefix>
+        <docker.image.prefix>j2eeliao</docker.image.prefix>
         <docker.image.exposed.port>9090</docker.image.exposed.port>
         <docker.image.dockerfile.dir>${basedir}</docker.image.dockerfile.dir>
         <docker.plugin.version>1.2.0</docker.plugin.version>
